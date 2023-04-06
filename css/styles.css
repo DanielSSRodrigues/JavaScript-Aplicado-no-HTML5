@@ -1,0 +1,16 @@
+#app {
+   text-align: center; 
+   background-color:beige;
+   width: 800px;
+   margin: auto;
+}
+
+.character{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 20px;
+    color:brown;
+}
+.item img{
+    max-width: 200px;
+}
